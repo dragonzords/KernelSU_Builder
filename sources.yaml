@@ -2,7 +2,7 @@ LineageOS-20:
   kernel:
     - git clone https://github.com/dragonzords/Interstellar_begonia_kernel.git -b vic
   clang:
-    - git clone --depth=1 https://github.com/kdrag0n/proton-clang.git -b master
+    - git clone --depth=1 https://gitlab.com/Jprimero15/lolz_clang.git -b main
   config:
     - make O=out ARCH=arm64 begonia_user_defconfig
   build:
