@@ -1,6 +1,6 @@
 LineageOS-20:
   kernel:
-    - git clone https://github.com/dragonzords/Interstellar_begonia_kernel.git -b vic
+    - git clone https://github.com/dragonzords/kernel_xiaomi_mt6785.git -b fifteen
   clang:
     - git clone --depth=1 https://gitlab.com/Jprimero15/lolz_clang.git -b main
   config:
